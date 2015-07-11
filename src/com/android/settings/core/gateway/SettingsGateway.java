@@ -163,6 +163,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.aosap.settings.AosapSettings;
 import com.aosap.settings.fragments.GlobalActionsSettings;
 import com.android.settings.livedisplay.LiveDisplaySettings;
+import com.aosap.settings.fragments.VolumeStepsFragment;
 
 public class SettingsGateway {
 
@@ -314,7 +315,8 @@ public class SettingsGateway {
             MediaControlsSettings.class.getName(),
             AosapSettings.class.getName(),
             GlobalActionsSettings.class.getName(),
-            LiveDisplaySettings.class.getName()
+            LiveDisplaySettings.class.getName(),
+            VolumeStepsFragment.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -356,5 +358,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.AosapSettingsActivity.class.getName(),
             Settings.GlobalActionsSettingsActivity.class.getName(),
+            Settings.VolumeStepsFragmentActivity.class.getName(),
     };
             }
