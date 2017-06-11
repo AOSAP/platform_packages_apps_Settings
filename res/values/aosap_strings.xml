@@ -19,4 +19,7 @@
     <string name="aosap_settings_title">Andromeda Settings</string>
     <string name="aosap_settings_summary">Explore Our Galaxy!</string>
 
+    <!-- AOSAP Version -->
+    <string name="aosap_version">AOSAP Build</string>
+
 </resources>
