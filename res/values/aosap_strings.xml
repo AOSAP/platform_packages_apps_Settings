@@ -43,4 +43,8 @@
     <string name="backup_transport_setting_label">Change backup provider</string>
     <string name="backup_transport_title">Select backup provider</string>
 
+    <!-- Andromeda Settings -->
+    <string name="aosap_settings_title">Andromeda Settings</string>
+    <string name="aosap_settings_summary">Explore Our Galaxy!</string>
+
 </resources>
