@@ -22,4 +22,7 @@
     <!-- AOSAP Version -->
     <string name="aosap_version">AOSAP Build</string>
 
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+
 </resources>
