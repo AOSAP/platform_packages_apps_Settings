@@ -145,4 +145,10 @@
     <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
     <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
 
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total RAM</string>
+
 </resources>
