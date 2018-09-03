@@ -128,4 +128,6 @@
 
     <string name="volumesteps_title">Volume Steps</string>
 
+    <string name="weather_title">Weather</string>
+
 </resources>
