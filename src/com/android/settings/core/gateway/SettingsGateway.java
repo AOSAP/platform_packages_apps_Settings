@@ -165,6 +165,7 @@ import com.aosap.settings.fragments.GlobalActionsSettings;
 import com.android.settings.livedisplay.LiveDisplaySettings;
 import com.aosap.settings.fragments.VolumeStepsFragment;
 import com.aosap.settings.fragments.OmniJawsSettings;
+import com.aosap.settings.fragments.GamingMode;
 
 public class SettingsGateway {
 
@@ -318,7 +319,8 @@ public class SettingsGateway {
             GlobalActionsSettings.class.getName(),
             LiveDisplaySettings.class.getName(),
             VolumeStepsFragment.class.getName(),
-            OmniJawsSettings.class.getName()
+            OmniJawsSettings.class.getName(),
+            GamingMode.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -362,5 +364,6 @@ public class SettingsGateway {
             Settings.GlobalActionsSettingsActivity.class.getName(),
             Settings.VolumeStepsFragmentActivity.class.getName(),
             Settings.OmniJawsSettingsActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName(),
     };
-            }
+}
