@@ -35,6 +35,12 @@
         android:entries="@array/lock_after_timeout_entries"
         android:entryValues="@array/lock_after_timeout_values" />
 
+    <com.aosap.settings.preferences.SystemSettingSwitchPreference
+        android:key="fod_gesture"
+        android:title="@string/fod_gesture_title"
+        android:summary="@string/fod_gesture_summary"
+        android:defaultValue="false" />
+
     <!-- available in pin/pattern/password -->
     <SwitchPreference
         android:key="power_button_instantly_locks"
