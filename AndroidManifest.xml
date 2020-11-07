@@ -3425,7 +3425,7 @@
         <!-- AndromedaSettings -->
         <activity android:name=".Settings$AndromedaSettingsActivity"
             android:label="@string/aosap_settings_title"
-            android:icon="@drawable/ic_settings_aosap"
+            android:icon="@drawable/ic_homepage_aosap"
             android:taskAffinity="com.android.settings">
             <intent-filter android:priority="1">
                 <action android:name="com.aosap.settings.AosapSettings" />
